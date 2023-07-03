@@ -1,0 +1,293 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: darkgray;
+  align-items: center;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 1080px;
+  color: darkgray;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px black solid;
+  background-color: #474641;
+  box-shadow: 10px 10px 20px 20px black;
+}
+
+.foto img {
+  height: 400px;
+  width: auto;
+}
+
+.logo-ithems-list-1 img {
+  height: 50px;
+  width: auto;
+}
+
+.logo-ithems-list-2 img {
+  height: 50px;
+  width: auto;
+}
+
+.footer {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 27px;
+  list-style: none;
+}
+
+.link{
+color: darkgray;
+font-size: 20px;
+text-decoration: none;
+transition: all  0.5s ease-in;
+}
+
+.nav-list-ithem {
+  margin: 0 30px;
+}
+
+.nav {
+  height: 80px;
+  width: 1200px;
+  background-color: #1b1b1b;
+}
+
+.fotoname {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.name {
+  margin-top:15px ;
+  padding: 0;
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+  margin: 20px;
+  text-shadow: 2px 2px 5px black;
+}
+
+.name p {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.Summary {
+  margin-bottom: 20px 0 50px 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 40px;
+}
+
+.Summary h2 {
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+.Summary p {
+  font-size: 25px;
+}
+
+.Skills {
+  margin-bottom: 20px 0 50px 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 40px;
+}
+
+.Skills h2 {
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+.Skills p {
+  font-size: 25px;
+}
+
+.Code-example {
+  margin-bottom: 20px 0 50px 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 40px;
+}
+
+.Code-example h2 {
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+pre {
+  background-color: #5c3a37;
+  font-size: 20px;
+}
+
+.Education {
+  margin-bottom: 20px 0 50px 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 40px;
+}
+
+.Education h2 {
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+.Education p {
+  font-size: 25px;
+}
+
+.Languages {
+  margin-bottom: 20px 0 50px 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 40px;
+}
+
+.Languages h2 {
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+.Languages p {
+  font-size: 25px;
+}
+
+.Contact {
+  margin-bottom: 20px 0 50px 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 40px;
+}
+
+.Contact h2 {
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.list-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.logo {
+  background-color: #474641;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-top: 1px solid black;
+  background-color: black;
+}
+
+.logo-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  list-style: none;
+}
+
+
+.link:hover {
+  color: white;
+  text-decoration:underline;
+  text-shadow: 1px 1px 5px white;
+  
+
+}
+
+.home::before{
+  content: '🏠 ';
+}
+
+.phone::before{
+  content: '📱 ';
+}
+
+.e-mail::before{
+  content: '📧 ';
+}
+
+.logo-ithems-list{
+  margin-bottom: 10px;
+}
+
+.phone,.e-mail, .home{
+  font-size: 25px;
+}
+
+.e-mail a, .phone a{
+  text-decoration: none;
+  color: darkgray
+}
+
+.e-mail a:hover{
+ text-decoration: underline;
+ text-shadow: 1px 1px 1px white;
+}
+
+.phone a:hover{
+ text-decoration: underline;
+ text-shadow: 1px 1px 1px white;
+}
+
+.logo-ithems-list-1 img:hover{
+transform: translate(-5px, -10px);
+box-shadow: 1px 1px 5px 1px white;
+}
+
+.logo-ithems-list-2 img:hover{
+transform: translate(5px, -10px);
+box-shadow: -1px  1px 5px 1px white;
+}
+
+.skills-list{
+  list-style: none;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-ithem-list-1::before{
+  content: '✔️';
+}
+.skills-ithem-list-2::before{
+  content: '✔️';
+}
+.skills-ithem-list-3::before{
+  content: '✔️';
+}
+.skills-ithem-list-4::before{
+  content: '✔️';
+}
+.skills-ithem-list-5::before{
+  content: '✔️';
+}
