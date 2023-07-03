@@ -64,3 +64,6 @@ I have no experience in studying IT specialties, including Frontend development.
 
 ***
 
+My native language is Belarusian and Russian.
+
+At the moment my English is between A1 and A2. I am working on improving and studying it, so I go to a tutor.
